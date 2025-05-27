@@ -73,7 +73,7 @@ $result = mysqli_query($conn, $query);
                     <td><img src="<?= $row['photo'] ?>" width="50"></td>
                     <td>
                         <a href="edit.php?id=<?= $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
-                        <a href="delete.php?id=<?= $row['id'] ?>" class="btn btn-danger btn-sm">Hapus</a>
+                        <a href="hapus.php?id=<?= $row['id'] ?>" class="btn btn-danger btn-sm">Hapus</a>
                         <a href="login.php?username=<?= $row['username'] ?>" class="btn btn-success btn-sm">Login</a>
                     </td>
                 </tr>
